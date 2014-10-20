@@ -1,0 +1,2444 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <base href="../">
+    <title>TNRIS - Texas Natural Resources Information System | Public Geographic Data for Texas</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/tnris.css" rel="stylesheet">
+
+    <!-- Styling for image slider -->
+    <link href="css/twentytwenty.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+
+<!-- end Header -->
+
+<body>
+    <div id="wrap">
+        <!-- Fixed navbar -->
+
+        
+
+      <div class="title-header">
+              <div class="container">
+                <span>Texas Natural Resources Information System</span>
+                <a class="navbar-twdb hidden-xs pull-right" href="http://www.twdb.texas.gov/">part of the Texas Water Development Board</a>
+              </div>
+      </div>
+
+      <div id="mainNav" class="navbar navbar-inverse" data-spy="affix" data-offset-top="25" data-offset-bottom="200"   role="navigation">
+        <div class="container">
+            <a id="logoCollapse" href="">Texas Natural Resources Information System</a>
+ 
+              <div class="navbar-collapse collapse ">
+                <ul class="nav navbar-nav">
+                  <li>
+                    <a href="maps-and-data">Maps &amp; Data</a>
+                  </li>
+                  <li class="dropdown">
+                  <a href="#" class="dropdown-toggle programs-nav " data-toggle="dropdown"><i class="fa fa-tasks"></i> Programs</a>
+                    <ul class="dropdown-menu inverse-dropdown">
+                      <li><a href="stratmap">StratMap<br><small>Strategic Mapping Program</small></a></li>
+                      <li><a href="training">Education &amp; Training<br><small>Low-cost and accessible GIS training</small></a></li>
+                      <li><a href="hpids">HPIDS<br><small>High Priority Imagery &amp; Data Sets</small></a></li>
+                      <li><a href="nfip">NFIP<br><small>National Flood Insurance Program</small></a></li>
+                      <li><a href="#">BIC<br><small>Borderlands Information Center</small></a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a class="gio" href="gio">Geographic Information Office</a>
+                  </li>
+                </ul>
+
+
+               <!--  <div class="input-group">
+                <input type="text" class="form-control" placeholder="Site &amp; Data Search">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+              </div> -->
+               </div><!-- .nav-collapse -->  
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>   
+               
+
+
+                 
+             
+
+                 <div id="aboutContact">
+                  <ul>
+                  <li>
+                    <a href="#"><span class="glyphicon glyphicon-user"></span> About</a>
+                  </li>
+                  <li>
+                    <a href="#" role="button"><span class="glyphicon glyphicon-comment"></span> Contact Us</a>
+                  </li>
+                </ul>
+               </div> 
+              <!--   -->
+        </div>
+      </div>
+
+        <!-- end navbar -->
+
+          
+
+         
+        <!-- Main Content -->
+        <div id="contentMain" class="container">
+            
+<div class="row">
+  
+    <div class="col-md-4">
+      <ul class="nav hidden-sm hidden-xs affix nav-cat">
+        <lh><h4>Browse by Category</h4></lh>
+        
+          <li>
+            <a href="#aerial-orthoimagery-hpids">Aerial Orthoimagery - HPIDS (9)</a>
+          </li>
+        
+          <li>
+            <a href="#aerial-orthoimagery-regional-">Aerial Orthoimagery - Regional  (38)</a>
+          </li>
+        
+          <li>
+            <a href="#aerial-orthoimagery-statewide">Aerial Orthoimagery - Statewide (10)</a>
+          </li>
+        
+          <li>
+            <a href="#bathymetry">Bathymetry (2)</a>
+          </li>
+        
+          <li>
+            <a href="#boundary">Boundary (7)</a>
+          </li>
+        
+          <li>
+            <a href="#cultural">Cultural (3)</a>
+          </li>
+        
+          <li>
+            <a href="#demographics">Demographics (2)</a>
+          </li>
+        
+          <li>
+            <a href="#digital-raster-graphics-drg">Digital Raster Graphics (DRG) (5)</a>
+          </li>
+        
+          <li>
+            <a href="#elevation-contours">Elevation - Contours (1)</a>
+          </li>
+        
+          <li>
+            <a href="#elevation-image">Elevation - Image (6)</a>
+          </li>
+        
+          <li>
+            <a href="#elevation-lidar">Elevation - Lidar (20)</a>
+          </li>
+        
+          <li>
+            <a href="#floodplain">Floodplain (2)</a>
+          </li>
+        
+          <li>
+            <a href="#geology">Geology (2)</a>
+          </li>
+        
+          <li>
+            <a href="#hydrography">Hydrography (8)</a>
+          </li>
+        
+          <li>
+            <a href="#natural-regions">Natural Regions (5)</a>
+          </li>
+        
+          <li>
+            <a href="#satellite-imagery">Satellite Imagery (1)</a>
+          </li>
+        
+          <li>
+            <a href="#transportation">Transportation (7)</a>
+          </li>
+        
+          <li>
+            <a href="#weather">Weather (1)</a>
+          </li>
+        
+      </ul>
+    </div>
+  
+  <div id="dataPageContent" class="col-md-8">
+    
+      <h1>Data Catalog</h1>
+      <div class="mainBlurb"><p>Our collection of maps, photos, documents and other spatial datasets were acquired from multiple sources including state, federal, and local agencies, with support and donations from private sources. They encompass a wide range of years, beginning all the way from the 1920s to the present-day.</p>
+</div>
+        
+          <div class="section">
+            <h2 id="aerial-orthoimagery-hpids">Aerial Orthoimagery - HPIDS</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-bexar-2010-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-bexar-2010-6in-nc">HPIDS Bexar 2010 6in NC</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired between January and February 2010 during leaf-off conditions. The dataset covers Bear, Comal, and Guadalupe Counties.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-brazos-2011-6in-1ft-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-brazos-2011-6in-1ft-nc-cir">HPIDS Brazos 2011 6in\1ft NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch and 12-inch orthoimagery were acquired in January 2013 during leaf-off conditions. The dataset covers Brazos County and portions of Grimes County.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-brazos-2013-6in-1ft-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-brazos-2013-6in-1ft-nc-cir">HPIDS Brazos 2013  6in\1ft NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch and 12-inch orthoimagery were acquired between January and February 2013 during leaf-off conditions. The dataset covers Brazos County.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-galveston-2009-6in-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-galveston-2009-6in-nc-cir">HPIDS Galveston 2009  6in NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired in May 2009 during leaf-on conditions. The dataset covers Galveston Island and adjacent coastal areas north and south of the island.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-galveston-2009-6in-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-galveston-2009-6in-cir">HPIDS Galveston 2009 6in CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired in May 2009 during leaf-on conditions. The dataset covers Galveston Island and adjacent coastal areas north and south of the island.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-houston-2013-1ft-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-houston-2013-1ft-nc-cir">HPIDS Houston 2013  1ft NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 12-inch orthoimagery were acquired between January and February 2013 during leaf-off conditions. The dataset covers portions of Harris County, mainly over the City of Houston.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-smith-2010-1ft-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-smith-2010-1ft-nc-cir">HPIDS Smith 2010 1ft NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch and 12-inch orthoimagery were acquired between January and February 2010 during leaf-off conditions. The dataset covers Smith County and adjacent Lake Palestine.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-smith-2014-6in-nc-cir">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-smith-2014-6in-nc-cir">HPIDS Smith 2014 6in NC\CIR</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired in early January 2014 during leaf-off conditions. The dataset covers Smith County and adjacent Lake Palestine.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-hpids/hpids-south-texas-2013-6in-9in-12in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-hpids/hpids-south-texas-2013-6in-9in-12in-nc">HPIDS South Texas 2013 6in\9in\12in NC</a>
+                    </h4>
+                    <p>
+                      The 6-inch, 9-inch, and 12-inch orthoimagery were acquired between December 2012 and February 2013 during leaf-off conditions. The dataset covers these counties: Zapata, Jim Hogg, Starr, Hidalgo, Willacy, and portions of Cameron.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="aerial-orthoimagery-regional-">Aerial Orthoimagery - Regional </h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-county-2001-cir-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-county-2001-cir-1m">Bexar County 2001 CIR 1m</a>
+                    </h4>
+                    <p>
+                      Color infrared Aerial Photography of Bexar County from 2001.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-county-2003-nc">
+                      <img class="media-object data-thumb" src="images/data-catalog/imagery/bexar_county_2003_nc_th.jpg" alt="thumbnail of Bexar County 2003 NC data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-county-2003-nc">Bexar County 2003 NC</a>
+                    </h4>
+                    <p>
+                      Natural Color Aerial Photography of Bexar County from 2003.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2006-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2006-6in-nc">Bexar Metro 911 2006 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color Aerial Photography of Bexar County from 2006.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2009-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2009-6in-nc">Bexar Metro 911 2009 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color Aerial Photography of Bexar County from 2009.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2010-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2010-6in-nc">Bexar Metro 911 2010 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color Aerial Photography of Bexar County from 2011.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2013-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/bexar-metro-911-2013-6in-nc">Bexar Metro 911 2013 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color Aerial Photography of Bexar County from 2013.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/capcog-1997-2m-bw">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/capcog-1997-2m-bw">CAPCOG 1997 2m BW</a>
+                    </h4>
+                    <p>
+                      Black and White 2m Aerial Photography captured for the 10,496 square mile region database as developed and maintained by the Capital Area Planning Council of Government (CAPCOG).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/capcog-2002-2m-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/capcog-2002-2m-nc">CAPCOG 2002 2m NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 2m Aerial Photography captured for the 10,496 square mile region database as developed and maintained by the Capital Area Planning Council of Government (CAPCOG).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/capcog-2006-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/capcog-2006-1ft-nc">CAPCOG 2006 1ft NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 12 inch Aerial Photography captured for the 10,496 square mile region database as developed and maintained by the Capital Area Planning Council of Government (CAPCOG).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/capcog-2009-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/capcog-2009-6in-nc">CAPCOG 2009 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 6 inch Aerial Photography captured for the 10,496 square mile region database as developed and maintained by the Capital Area Planning Council of Government (CAPCOG).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/city-of-abilene-2009-1ft-nc">
+                      <img class="media-object data-thumb" src="images/data-catalog/imagery/abilene_2009_1ft_nc_th.jpg" alt="thumbnail of City of Abilene 2009 1ft NC data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/city-of-abilene-2009-1ft-nc">City of Abilene 2009 1ft NC</a>
+                    </h4>
+                    <p>
+                      Natural Color imagery for the City of Abilene, data was collected at a 1ft resolution.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/city-of-austin-2003-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/city-of-austin-2003-6in-nc">City of Austin 2003 6in NC</a>
+                    </h4>
+                    <p>
+                      Natural Color imagery for the City of Austin, data was collected at a 6 in. resolution.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/city-of-austin-2006">
+                      <img class="media-object data-thumb" src="images/data-catalog/imagery/cityofaustin_2006_th.jpg" alt="thumbnail of City of Austin 2006 data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/city-of-austin-2006">City of Austin 2006</a>
+                    </h4>
+                    <p>
+                      Natural Color imagery for the City of Austin, data was collected at a 6 in. resolution during leaf-off season in 2006.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/el-paso-2003-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/el-paso-2003-nc">El Paso 2003 NC</a>
+                    </h4>
+                    <p>
+                      Natural Color imagery for the City of El Paso, data was collected at a 12 in. resolution in 2003.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/el-paso-2005-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/el-paso-2005-nc">El Paso 2005 NC</a>
+                    </h4>
+                    <p>
+                      Natural Color imagery for the City of El Paso, data was collected at a 6 in. resolution in 2005.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-1999-50cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-1999-50cm-nc">HGAC 1999 50cm NC</a>
+                    </h4>
+                    <p>
+                      H-GAC 1999 Half Meter Pixel Resolution Digital Orthophoto MrSID Images in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-2002-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-2002-1ft-nc">HGAC 2002 1ft NC</a>
+                    </h4>
+                    <p>
+                      H-GAC 2002 1 Foot Resolution Digital Orthophoto MrSID Images in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-2004-6in-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-2004-6in-1ft-nc">HGAC 2004 6in\1ft NC</a>
+                    </h4>
+                    <p>
+                      H-GAC 2004 1 Foot and 6 Inch (Half Foot) Resolution Digital Orthophoto MrSID Images in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-2006-6in-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-2006-6in-1ft-nc">HGAC 2006  6in\1ft NC</a>
+                    </h4>
+                    <p>
+                      HGAC 1/2400 Digital Color Orthophotography (2006) in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-2008-3in-6in-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-2008-3in-6in-1ft-nc">HGAC 2008 3in\6in\1ft NC</a>
+                    </h4>
+                    <p>
+                      H-GAC 2008 1 Foot, 6 Inch, and 3 inch Resolution Digital Orthophoto MrSID Images in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/hgac-2010-3in-6in-1ft-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/hgac-2010-3in-6in-1ft-nc">HGAC 2010 3in\6in\1ft NC</a>
+                    </h4>
+                    <p>
+                      H-GAC 2010 1 Foot, 6 Inch, and 3 inch Resolution Digital Orthophoto Images in Natural Color.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/ibwc-2011-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/ibwc-2011-6in-nc">IBWC 2011 6in NC</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired between December 2010 and April 2011 during leaf-off conditions. The dataset covers portions of the Texas/Mexico border on the US side.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/lrgv-2011-6in-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/lrgv-2011-6in-nc">LRGV 2011 6in NC</a>
+                    </h4>
+                    <p>
+                      The 6-inch orthoimagery were acquired between December 2010 and April 2011 during leaf-off conditions.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/lynn-2005-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/lynn-2005-nc">Lynn 2005 NC</a>
+                    </h4>
+                    <p>
+                      Orthophoto dataset covering a portion of Lynn County - just south of the City of Lubbock.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/nctcog-2001-nc-1ft">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/nctcog-2001-nc-1ft">NCTCOG 2001 NC 1ft</a>
+                    </h4>
+                    <p>
+                      North Central Texas Council of Governments facilitated the purchase of digital aerial photography (orthos) for the following 11 counties in North Central Texas
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/nctcog-2003-nc-1ft">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/nctcog-2003-nc-1ft">NCTCOG 2003 NC 1ft</a>
+                    </h4>
+                    <p>
+                      North Central Texas Council of Governments facilitated the purchase of digital aerial photography (orthos) for the following 11 counties in North Central Texas
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/nctcog-2005-nc-1ft">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/nctcog-2005-nc-1ft">NCTCOG 2005 NC 1ft</a>
+                    </h4>
+                    <p>
+                      North Central Texas Council of Governments facilitated the purchase of digital aerial photography (orthos) for the following 11 counties in North Central Texas
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/noaa">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/noaa">NOAA</a>
+                    </h4>
+                    <p>
+                      The Coastal Texas project area is comprised of approximately 458 square miles.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/taylor-county-2002-bw">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/taylor-county-2002-bw">Taylor County 2002 BW</a>
+                    </h4>
+                    <p>
+                      Digital orthophoto images for the City of Abilene, Taylor County, Taylor County Central Appraisal District and Taylor County 911 Office.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/texas-forest-service-east-texas">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/texas-forest-service-east-texas">Texas Forest Service-East Texas</a>
+                    </h4>
+                    <p>
+                      The 1-meter orthoimagery were acquired in February 2008 during leaf-off conditions.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2002-corpus-christi-bay-nc-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2002-corpus-christi-bay-nc-1m">USGS 2002 Corpus Christi Bay NC 1m</a>
+                    </h4>
+                    <p>
+                      Natural Color 1m imagery for Corpus Christi Bay.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-amarillo-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-amarillo-30cm-nc">USGS 2009 Amarillo 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of Amarillo, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-border-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-border-nc">USGS 2009 Border NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the Texas\Mexico Border.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-lubbock-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-lubbock-30cm-nc">USGS 2009 Lubbock 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of Lubbock, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-mcallen-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2009-mcallen-30cm-nc">USGS 2009 McAllen 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of  McAllen, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2012-amarillo-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2012-amarillo-30cm-nc">USGS 2012 Amarillo 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of Amarillo, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2012-el-paso-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2012-el-paso-30cm-nc">USGS 2012 El Paso 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of El Paso Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-regional-/usgs-2013-dallas-fort-worth-30cm-nc">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-regional-/usgs-2013-dallas-fort-worth-30cm-nc">USGS 2013 Dallas\Fort Worth 30cm NC</a>
+                    </h4>
+                    <p>
+                      Natural Color 30 centimeter orthoimages covering the urban area footprint of Dallas, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="aerial-orthoimagery-statewide">Aerial Orthoimagery - Statewide</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2004-cir-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2004-cir-1m">NAIP 2004 CIR 1m</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2005-nc-2m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2005-nc-2m">NAIP 2005 NC 2m</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2006-cir-2m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2006-cir-2m">NAIP 2006 CIR 2m</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2008-ccm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2008-ccm">NAIP 2008 CCM</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2009-ccm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2009-ccm">NAIP 2009 CCM</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2010-nc-cir-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2010-nc-cir-1m">NAIP 2010 NC\CIR 1m</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/naip-2012-nc-cir-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/naip-2012-nc-cir-1m">NAIP 2012 NC\CIR 1m</a>
+                    </h4>
+                    <p>
+                      The National Agriculture Imagery Program (NAIP) acquires aerial imagery during the agricultural growing seasons in the continental United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/top-1996-cir-bw-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/top-1996-cir-bw-1m">TOP 1996 CIR\BW 1m</a>
+                    </h4>
+                    <p>
+                      A set of digital orthophoto images that are produced for the Texas Orthoimagery Program (TOP).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/top-2008-nc-cir-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/top-2008-nc-cir-50cm">TOP 2008 NC\CIR 50cm</a>
+                    </h4>
+                    <p>
+                      The 0.5-meter 2008/2009 digital orthophoto quarter quads (DOQQs) were collected through a partnership between the Texas Orthoimagery Program (TOP) and the USDA National Agriculture Imagery Program (NAIP).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/aerial-orthoimagery-statewide/top-2009-nc-cir-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/aerial-orthoimagery-statewide/top-2009-nc-cir-50cm">TOP 2009 NC\CIR 50cm</a>
+                    </h4>
+                    <p>
+                      The 0.5-meter 2008/2009 digital orthophoto quarter quads (DOQQs) were collected through a partnership between the Texas Orthoimagery Program (TOP) and the USDA National Agriculture Imagery Program (NAIP).
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="bathymetry">Bathymetry</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/bathymetry/bathymetry-tx-coast-v0-1">
+                      <img class="media-object data-thumb" src="images/data-catalog/bathymetry/bathymetry_tx_coast_th.jpg" alt="thumbnail of Bathymetry TX Coast v0.1 data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/bathymetry/bathymetry-tx-coast-v0-1">Bathymetry TX Coast v0.1</a>
+                    </h4>
+                    <p>
+                      Bathymetry of the Texas-Louisiana Continental Shelf.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/bathymetry/bathymetry-tx-la-coast-v0-1">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/bathymetry/bathymetry-tx-la-coast-v0-1">Bathymetry TX LA Coast V0.1</a>
+                    </h4>
+                    <p>
+                      Bathymetry of the Texas-Louisiana Continental Shelf.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="boundary">Boundary</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/adjacent-states">
+                      <img class="media-object data-thumb" src="images/data-catalog/boundary/adjacent_states_th.jpg" alt="thumbnail of Adjacent States data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/adjacent-states">Adjacent States</a>
+                    </h4>
+                    <p>
+                      State boundaries for Texas adjacent states for base map use.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary">Index</a>
+                    </h4>
+                    <p>
+                      Indices for Landsat, National Grid, SPOT, and USGS. Landsat: Frames and grid, National Grid: UTM Zones/Grids, SPOT.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/lidar-availability-index">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/lidar-availability-index">Lidar Availability Index</a>
+                    </h4>
+                    <p>
+                      Tile index of Lidar data available to order from TNRIS.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/otls-ver-2014">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/otls-ver-2014">OTLS ver. 2014</a>
+                    </h4>
+                    <p>
+                      An interpretation of the Original Texas Land Surveys boundaries and bay tracts.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/plss-section">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/plss-section">PLSS Section</a>
+                    </h4>
+                    <p>
+                      The Public Land Survey System (PLSS) is a way of subdividing and describing land in the United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/plss-township">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/plss-township">PLSS Township</a>
+                    </h4>
+                    <p>
+                      The Public Land Survey System (PLSS) is a way of subdividing and describing land in the United States.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/boundary/stratmap-boundaries">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/boundary/stratmap-boundaries">StratMap Boundaries</a>
+                    </h4>
+                    <p>
+                      The StratMap political boundary dataset contains political jurisdictions, state boundaries, county boundaries, city boundaries, federal parks, state parks, and landmark boundaries (airports, universities, wildlife refuges, and military bases).
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="cultural">Cultural</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/cultural/tiger-2006">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/cultural/tiger-2006">TIGER 2006</a>
+                    </h4>
+                    <p>
+                      The 2006 Second Edition TIGER/Line files are an extract of selected geographic and cartographic information from the Census TIGER database.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/cultural/texas-gazetteer">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/cultural/texas-gazetteer">Texas Gazetteer</a>
+                    </h4>
+                    <p>
+                      he Texas Gazetteer contains information about physical and cultural geographic features in Texas
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/cultural/urban-areas">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/cultural/urban-areas">Urban Areas</a>
+                    </h4>
+                    <p>
+                      U.S. National Atlas Urbanized Areas provides information about the locations, names, and populations of urbanized areas for conducting geographic analysis on national and large regional scales.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="demographics">Demographics</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/demographics/census-2000">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/demographics/census-2000">Census 2000</a>
+                    </h4>
+                    <p>
+                      Census Block, Block Groups and Tracts for the census 2000.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/demographics/census-2010">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/demographics/census-2010">Census 2010</a>
+                    </h4>
+                    <p>
+                      Census Block, Block Groups and Tracts for the census 2010. Data has been joined and exported with all related Census tables
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="digital-raster-graphics-drg">Digital Raster Graphics (DRG)</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/digital-raster-graphics-drg/drg-024k">
+                      <img class="media-object data-thumb" src="images/data-catalog/drg/drg_024k_th.jpg" alt="thumbnail of DRG 024k data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/digital-raster-graphics-drg/drg-024k">DRG 024k</a>
+                    </h4>
+                    <p>
+                      A scanned and rectified image of the USGS 1:24k topographic map series to be used in a geographic information system (GIS).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/digital-raster-graphics-drg/drg-100k">
+                      <img class="media-object data-thumb" src="images/data-catalog/drg/drg_024k_th.jpg" alt="thumbnail of DRG 100K data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/digital-raster-graphics-drg/drg-100k">DRG 100K</a>
+                    </h4>
+                    <p>
+                      A scanned and rectified image of the USGS 1:100k topographic map series to be used in a geographic information system (GIS).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/digital-raster-graphics-drg/drg-250k">
+                      <img class="media-object data-thumb" src="images/data-catalog/drg/drg_024k_th.jpg" alt="thumbnail of DRG 250K data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/digital-raster-graphics-drg/drg-250k">DRG 250K</a>
+                    </h4>
+                    <p>
+                      A scanned and rectified image of the USGS 1:250k topographic map series to be used in a geographic information system (GIS)
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/digital-raster-graphics-drg/drg-county-mosaics">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/digital-raster-graphics-drg/drg-county-mosaics">DRG County Mosaics</a>
+                    </h4>
+                    <p>
+                      A scanned and rectified county mosaic of the USGS 1:24k topographic map series to be used in a geographic information system (GIS)
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/digital-raster-graphics-drg/drg-usgs-geopdf">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/digital-raster-graphics-drg/drg-usgs-geopdf">DRG USGS GeoPDF</a>
+                    </h4>
+                    <p>
+                      US Topo GeoPDF maps are digital topographic maps produced by the National Geospatial Program of the U.S. Geological Survey (USGS).
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="elevation-contours">Elevation - Contours</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-contours/stratmap-hypso">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-contours/stratmap-hypso">StratMap Hypso</a>
+                    </h4>
+                    <p>
+                      Hypsography (elevation contours) derived by digitizing map features as line graph elements from the cartographic source materials.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="elevation-image">Elevation - Image</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/srtm-v1">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/srtm-v1">SRTM v1</a>
+                    </h4>
+                    <p>
+                      The Shuttle Radar Topography Mission (SRTM) obtained elevation data on a near-global scale to generate the most complete high-resolution digital topographic database of Earth.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/srtm-v2-1">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/srtm-v2-1">SRTM v2.1</a>
+                    </h4>
+                    <p>
+                      The Shuttle Radar Topography Mission (SRTM) obtained elevation data on a near-global scale to generate the most complete high-resolution digital topographic database of Earth.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/tx-hillshade">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/tx-hillshade">TX Hillshade</a>
+                    </h4>
+                    <p>
+                      Hillshade for Texas (2004, 2011, 2013)
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/tx-ned-2004">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/tx-ned-2004">TX NED 2004</a>
+                    </h4>
+                    <p>
+                      The National Elevation Dataset (NED) is the primary elevation data product of the USGS and serves as the elevation layer of The National Map.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/tx-ned-2011">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/tx-ned-2011">TX NED 2011</a>
+                    </h4>
+                    <p>
+                      The National Elevation Dataset (NED) is the primary elevation data product of the USGS and serves as the elevation layer of The National Map.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-image/tx-ned-2013">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-image/tx-ned-2013">TX NED 2013</a>
+                    </h4>
+                    <p>
+                      The National Elevation Dataset (NED) is the primary elevation data product of the USGS and serves as the elevation layer of The National Map.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="elevation-lidar">Elevation - Lidar</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/capcog-2007-140cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/capcog-2007-140cm">CAPCOG 2007 140cm</a>
+                    </h4>
+                    <p>
+                      CAPCOG lidar for Caldwell, Guadalupe, Travis, Williamson counties. 
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/capcog-2008-140cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/capcog-2008-140cm">CAPCOG 2008 140cm</a>
+                    </h4>
+                    <p>
+                      CAPCOG lidar for Bastrop, Fayette, Hays counties.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/city-of-grand-prairie-2009-70cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/city-of-grand-prairie-2009-70cm">City of Grand Prairie 2009 70cm</a>
+                    </h4>
+                    <p>
+                      Lidar for the City of Grand Prairie, Texas
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/fema-2006-140cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/fema-2006-140cm">FEMA 2006 140cm</a>
+                    </h4>
+                    <p>
+                      This lidar project is intended to provide high density elevation information of 13 coastal counties of Texas. 
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/fema-2011-61cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/fema-2011-61cm">FEMA 2011 61cm</a>
+                    </h4>
+                    <p>
+                      Lidar for Comal, Guadalupe, Liberty, Parker Counties, TX.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/fema-2013-60cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/fema-2013-60cm">FEMA 2013 60cm</a>
+                    </h4>
+                    <p>
+                      Lidar for the Middle Brazos-Palo Pinto, TX.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/fort-bend-2006-60cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/fort-bend-2006-60cm">Fort Bend 2006 60cm</a>
+                    </h4>
+                    <p>
+                      Lidar for Fort Bend County, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/harris-county-flood-control-2001-150cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/harris-county-flood-control-2001-150cm">Harris County Flood Control 2001 150cm</a>
+                    </h4>
+                    <p>
+                      Lidar for Harris County Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/ibwc-2006-70cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/ibwc-2006-70cm">IBWC 2006 70cm</a>
+                    </h4>
+                    <p>
+                      Lidar for Cameron County
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/ibwc-2011-70cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/ibwc-2011-70cm">IBWC 2011 70cm</a>
+                    </h4>
+                    <p>
+                      Lidar for Cameron County and Rio Grande River.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/lcra-2007-140cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/lcra-2007-140cm">LCRA 2007 140cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for counties int he LCRA area.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2009-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2009-1m">TNRIS 2009 1m</a>
+                    </h4>
+                    <p>
+                      Lidar data for Dalas, Goliad, McMullen &amp; Zapata
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2009-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2009-50cm">TNRIS 2009 50cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for Tarrant
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2010-1m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2010-1m">TNRIS 2010 1m</a>
+                    </h4>
+                    <p>
+                      Lidar data for Lee, Leon, Madison &amp; Milam.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2010-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2010-50cm">TNRIS 2010 50cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for Bexar, Cooke, Grayson, Montague &amp; Wise
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2011-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2011-50cm">TNRIS 2011 50cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for Austin, Grimes, Walker Bell, Burnet, McLennan, Sabine, Shelby, Newton Collin, Denton, Kaufman Kendall, Kerr, &amp; Gonzales
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2012-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2012-50cm">TNRIS 2012 50cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for Dewitt  and TCEQ Dam Safety Sites.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/tnris-2013-50cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/tnris-2013-50cm">TNRIS 2013 50cm</a>
+                    </h4>
+                    <p>
+                      Lidar data for Ellis, Navarro, Wilson &amp; Karnes.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/usgs-2008-120cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/usgs-2008-120cm">USGS 2008 120cm</a>
+                    </h4>
+                    <p>
+                      Lidar for approximately 2388 square miles consisting of the Texas counties of Kleberg and Kennedy.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/elevation-lidar/usgs-2011-150cm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/elevation-lidar/usgs-2011-150cm">USGS 2011 150cm</a>
+                    </h4>
+                    <p>
+                      Lidar data to be collected for Calhoun, Nueces, Willacy, Hidalgo Counties, Texas.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="floodplain">Floodplain</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/floodplain/fema-dfirm">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/floodplain/fema-dfirm">FEMA DFIRM</a>
+                    </h4>
+                    <p>
+                      Maps, Shapefiles and metadata of FEMA&#39;s Digital Flood Insurance Rate Maps (DFIRM).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/floodplain/fema-q3">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/floodplain/fema-q3">FEMA Q3</a>
+                    </h4>
+                    <p>
+                      The FEMA Digital Q3 Flood Data were developed by scanning the existing Flood Insurance Rate Map (FIRM) hardcopy and capturing a thematic overlay of flood risks.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="geology">Geology</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/geology/geology-raster">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/geology/geology-raster">Geology Raster</a>
+                    </h4>
+                    <p>
+                      Scanned and geo-referenced version of the UT BEG Geologic sheets.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/geology/geology-vector">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/geology/geology-vector">Geology Vector</a>
+                    </h4>
+                    <p>
+                      Digitized version of the UT BEG Geologic Sheets.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="hydrography">Hydrography</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nhd-">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nhd-">NHD+</a>
+                    </h4>
+                    <p>
+                      The 1:24,000 National Hydrography Dataset (NHD), jointly developed by the USGS and the Environmental Protection Agency (EPA).
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nhd-texas-nhd-river-streams">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nhd-texas-nhd-river-streams">NHD+ - Texas NHD River Streams</a>
+                    </h4>
+                    <p>
+                      Generalized statewide hydrographic dataset which provides unique stream and river identification codes and flow information at the 1:100,000 scale.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nwi-024k">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nwi-024k">NWI 024k</a>
+                    </h4>
+                    <p>
+                      This data set represents the extent, status, and approximate location of current and historic NWI wetland mapping projects.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nwi-062k">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nwi-062k">NWI 062k</a>
+                    </h4>
+                    <p>
+                      This data set represents the extent, status, and approximate location of current and historic NWI wetland mapping projects.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nwi-100k">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nwi-100k">NWI 100K</a>
+                    </h4>
+                    <p>
+                      This data set represents the extent, status, and approximate location of current and historic NWI wetland mapping projects.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/nwi-vector">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/nwi-vector">NWI Vector</a>
+                    </h4>
+                    <p>
+                      This data set represents the extent, status, and approximate location of current and historic NWI wetland mapping projects.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/reservoirs">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/reservoirs">Reservoirs</a>
+                    </h4>
+                    <p>
+                      This dataset was built to improve upon a retired reservoir dataset (1997) by incorporating the USGS 1:24K and TWDB surveyed lake data into one statewide reservoir coverage.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/hydrography/watershed-boundaries">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/hydrography/watershed-boundaries">Watershed Boundaries</a>
+                    </h4>
+                    <p>
+                      The WBD is a seamless and consistent national Geographic Information System (GIS) database at a scale of 1:24,000, which has been extensively reviewed and matches to a minimum the USGS topographical 7.5 minute quadrangle map series.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="natural-regions">Natural Regions</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/natural-regions/nlcd-1992">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/natural-regions/nlcd-1992">NLCD 1992</a>
+                    </h4>
+                    <p>
+                      National Land Cover Dataset for 1992
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/natural-regions/nlcd-2002">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/natural-regions/nlcd-2002">NLCD 2002</a>
+                    </h4>
+                    <p>
+                      National Land Cover Dataset for 2002
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/natural-regions/natural-regions">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/natural-regions/natural-regions">Natural Regions</a>
+                    </h4>
+                    <p>
+                      This dataset was set up as a system to identify broad natural regions of Texas, to serve as a common point of reference.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/natural-regions/soils">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/natural-regions/soils">Soils</a>
+                    </h4>
+                    <p>
+                      This data set is a digital soil survey and generally is the most detailed level of soil geographic data developed by the National Cooperative Soil Survey.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/natural-regions/vegetation">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/natural-regions/vegetation">Vegetation</a>
+                    </h4>
+                    <p>
+                      Natural and human influenced vegetation communities and land uses in Texas.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="satellite-imagery">Satellite Imagery</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/satellite-imagery/spot-select-for-texas-pan-bw-1999-2001-10m">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/satellite-imagery/spot-select-for-texas-pan-bw-1999-2001-10m">SPOT Select for Texas Pan BW 1999-2001 10m</a>
+                    </h4>
+                    <p>
+                      SPOT Select for Texas
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="transportation">Transportation</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/airports">
+                      <img class="media-object data-thumb" src="images/data-catalog/transportation/airports_th.jpg" alt="thumbnail of Airports data set">
+                    </a>
+                   
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/airports">Airports</a>
+                    </h4>
+                    <p>
+                      The Public Use Airports database is a geographic point database of aircraft landing facilities in the United States and U.S. Territories.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/railroads-ver-2013">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/railroads-ver-2013">Railroads ver. 2013</a>
+                    </h4>
+                    <p>
+                      The data is maintained to enable the visualization of railroad inventory attributes, update railroad crossing data, and serve as a base layer for TxDOT&#39;s cartographic products.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/stratmap-transportation">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/stratmap-transportation">StratMap Transportation</a>
+                    </h4>
+                    <p>
+                      The StratMap transportation layer is an updated, digital version of the transportation features found on the 7.5 minute, 1:24,000 scale USGS quadrangle maps.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/txdot-reference-markers">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/txdot-reference-markers">TxDOT Reference Markers</a>
+                    </h4>
+                    <p>
+                      Geographic representation of highway markers for Texas.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/txdot-roadways-2010-2012">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/txdot-roadways-2010-2012">TxDOT Roadways 2010-2012</a>
+                    </h4>
+                    <p>
+                      The data is maintained to enable the classification of roadway inventory attributes, satisfy federal and state roadway reporting requirements, and serve as a base layer for TxDOT&#39;s cartographic products.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/txdot-roadways-2013">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/txdot-roadways-2013">TxDOT Roadways 2013</a>
+                    </h4>
+                    <p>
+                      The data is maintained to enable the classification of roadway inventory attributes, satisfy federal and state roadway reporting requirements, and serve as a base layer for TxDOT&#39;s cartographic products.
+                    </p>
+                  </div>
+                </li>
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/transportation/txdot-texas-historic-overlay">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/transportation/txdot-texas-historic-overlay">TxDOT Texas Historic Overlay</a>
+                    </h4>
+                    <p>
+                      Texas Department of Transportation (TxDOT) created a GIS-based historic archaeological resource that helps avoid sensitive archaeological and cultural sites and guide field surveys.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+          <div class="section">
+            <h2 id="weather">Weather</h2>
+            <ul class="media-list list-group">
+              
+                <li class="media list-group-item">
+                 
+                    <a class="pull-left" href="data-catalog/weather/precipitation">
+                      <img class="media-object" src="holder.js/100x100" alt="...">
+                    </a>
+                  
+                  <div class="media-body">
+                    <h4 class="media-heading">
+                      <a href="data-catalog/weather/precipitation">Precipitation</a>
+                    </h4>
+                    <p>
+                      Display and/or analyses requiring spatially distributed monthly or annual precipitation for the climatological period 1961-90.
+                    </p>
+                  </div>
+                </li>
+              
+            </ul>
+          </div>
+        
+      </div>
+    
+  </div>
+
+
+          <!--   <hr class="push">
+            <div id="push"></div> -->
+        </div>
+        <!-- end Main Content -->
+
+
+    
+    <!-- full wrapper -->
+
+      
+    </div>
+     
+          <footer class="footer">
+      <div class="container">
+        
+        <p><address>1700 N. Congress, Room B-40<br>
+Austin, Texas 78701
+<br></address>
+<a href="#">View Map</a></p>
+<p>Phone: <a href="tel:5124638337">512-463-8337</a></p>
+<p>Content of this site © Texas Natural Resources Information System and Texas Water Development Board unless otherwise noted.</p>
+      </div>
+
+    </footer> 
+     
+
+     
+          <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/eventmove.js"></script>
+    <script src="js/twentytwenty.js"></script>
+    <script src="js/holder.js"></script>
+    <script src="js/site.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/rat5rkg.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script> 
+    
+    
+</body>
+
+</html>
