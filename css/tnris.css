@@ -71,24 +71,44 @@
             font-size: 18px; } }
 
 /* Single Page Version */
-.spot-title {
-  background: #1e8dc1;
-  color: white;
-  font-size: 24px;
-  border-radius: 10px;
-  padding: 0 10px;
-  font-weight: 100;
-  font-family: "pragmatica-web-condensed", sans-serif;
-  margin-top: 10px;
-  display: block; }
-  .spot-title h1 {
-    margin-top: 5px; }
-
 .byline {
   padding: 0 15px; }
 
 .blog-sidebar h2:first-child {
   margin-top: 0; }
+
+#spotlight-full-image {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  display: block;
+  position: relative; }
+  #spotlight-full-image img {
+    width: 100%;
+    position: absolute; }
+  #spotlight-full-image .spot-title {
+    background-color: #78bad9;
+    background-color: rgba(30, 141, 193, 0.6);
+    color: white;
+    position: absolute;
+    z-index: 2000;
+    bottom: 0;
+    padding: 0 10px;
+    font-weight: 100;
+    font-family: "pragmatica-web-condensed", sans-serif;
+    text-shadow: 1px 1px 2px #222222;
+    width: 100%; }
+    #spotlight-full-image .spot-title h1 {
+      margin-top: 5px; }
+    #spotlight-full-image .spot-title small {
+      color: #f7f7fc;
+      font-weight: 300; }
+  #spotlight-full-image .container {
+    position: relative;
+    bottom: 0; }
+  @media (min-width: 992px) {
+    #spotlight-full-image {
+      height: 550px; } }
 
 /* Colors */
 /* Font */
@@ -411,6 +431,10 @@ a.navbar-twdb {
     .navbar-collapse {
       float: left;
       width: 600px; } }
+  @media (min-width: 992px) {
+    .navbar-collapse {
+      float: left;
+      width: 550px; } }
 
 #logoCollapse {
   background: url(../images/sm_logo_white.png) 0 0 no-repeat;
@@ -422,19 +446,21 @@ a.navbar-twdb {
   margin-right: 20px;
   margin-top: 5px; }
 
-#aboutContact {
+#about-contact {
   width: auto;
-  float: right; }
-  #aboutContact ul {
+  float: right;
+  margin-top: 15px; }
+  #about-contact ul {
     padding: 0; }
-    #aboutContact ul li {
+    #about-contact ul li {
       display: inline;
       float: left;
-      list-style: none; }
-      #aboutContact ul li a {
+      list-style: none;
+      margin-right: 20px; }
+      #about-contact ul li a {
         color: white;
         font-size: 14px; }
-        #aboutContact ul li a:hover {
+        #about-contact ul li a:hover {
           text-decoration: none;
           color: #cccccc; }
 
@@ -484,12 +510,16 @@ a.navbar-twdb {
     #quickNav ul li {
       list-style: none;
       background: #f7f7fc;
-      height: 70px;
-      font-size: 18px; }
-      @media (max-width: 1200px) {
+      height: 40px;
+      font-size: 18px;
+      border-right: none; }
+      @media (min-width: 992px) {
         #quickNav ul li {
           height: 60px;
-          border-right: none; } }
+          border-right: 1px solid #dddddd; } }
+      @media (min-width: 1200px) {
+        #quickNav ul li {
+          height: 70px; } }
       @media (max-width: 992px) {
         #quickNav ul li:first-child {
           border-top-right-radius: 0;
@@ -502,27 +532,32 @@ a.navbar-twdb {
       #quickNav ul li a {
         font-family: "pragmatica-web-condensed", sans-serif;
         font-weight: 500;
-        font-size: 17px;
+        font-size: 14px;
         overflow: auto;
-        height: 60px;
+        height: 30px;
         width: 100%; }
-        @media (min-width: 1200px) {
+        @media (min-width: 768px) {
           #quickNav ul li a {
-            font-size: 20px; } }
+            font-size: 16px;
+            height: 60px; } }
+        @media (min-width: 992px) {
+          #quickNav ul li a {
+            font-size: 20px;
+            height: 60px; } }
         #quickNav ul li a:hover {
           text-decoration: none; }
         #quickNav ul li a .iconContainer {
-          width: 40px;
-          height: 40px;
+          width: 30px;
+          height: 30px;
           float: left;
           position: relative;
-          font-size: 30px;
+          font-size: 26px;
           background: none;
           margin-left: 0; }
-          @media (max-width: 768px) {
+          @media (min-width: 992px) {
             #quickNav ul li a .iconContainer {
-              width: 30px;
-              height: 30px;
+              width: 40px;
+              height: 40px;
               font-size: 24px; } }
         #quickNav ul li a.downloaddata-quick {
           color: #bf571f; }
@@ -548,7 +583,10 @@ a.navbar-twdb {
           font-size: 12px; }
   #quickNav .list-group-item {
     padding: 15px;
-    padding-top: 10px; }
+    padding-top: 5px; }
+    @media (min-width: 992px) {
+      #quickNav .list-group-item {
+        padding-top: 10px; } }
   #quickNav .nav > li > a:hover, #quickNav .nav > li > a:focus {
     background: none;
     list-style: none; }
@@ -639,15 +677,21 @@ author {
   position: relative;
   z-index: 10000;
   color: white; }
+  #highlights strong {
+    font-weight: 400; }
   #highlights h3 {
     color: #acddf4;
     font-weight: 100;
-    font-size: 30px; }
-    @media (max-width: 768px) {
+    font-size: 30px;
+    margin-bottom: 20px; }
+    @media (max-width: 1200px) {
       #highlights h3 {
         font-size: 24px; } }
+  #highlights p {
+    padding: 0 15px; }
+  #highlights a {
+    margin-left: 15px; }
   #highlights .image-container {
-    border-radius: 10px;
     overflow: hidden;
     width: 100%;
     position: relative; }
@@ -656,6 +700,7 @@ author {
       text-shadow: 1px 1px 2px #222222;
       margin: 0;
       padding: 0;
+      padding-bottom: 5px;
       padding-left: 15px;
       font-weight: 300;
       bottom: 0;
@@ -663,6 +708,9 @@ author {
       color: white;
       background-image: -webkit-linear-gradient( bottom , #222222, transparent);
       background-image: linear-gradient(to top, #222222, transparent); }
+      @media (max-width: 1200px) {
+        #highlights .image-container h2 {
+          font-size: 20px; } }
 
 .highlightBox {
   margin-bottom: 30px;
@@ -671,29 +719,35 @@ author {
 /* Updates */
 @media (min-width: 992px) {
   #updates {
-    border-left: 1px solid #cccccc;
     margin-left: 15px;
     padding-right: 30px;
     margin-right: -15px; } }
 #updates h2 {
-  margin-top: 0; }
+  margin-top: 0;
+  font-size: 22px; }
 #updates h3 {
   font-size: 22px; }
 #updates ul {
   padding: 0;
   list-style: none; }
+#updates img {
+  width: 100%;
+  height: 100px !important; }
 #updates .media {
-  margin-top: 20px;
+  margin-top: 25px;
   border-bottom: 1px solid #cccccc;
-  padding-bottom: 20px; }
+  padding-bottom: 25px; }
   #updates .media:first-child {
-    margin-top: 0; }
+    margin-top: 0;
+    padding-left: 0; }
   #updates .media:last-child {
-    border: none; }
-
-time {
-  font-size: 14px;
-  font-weight: 500; }
+    border: none;
+    padding-right: 0; }
+  #updates .media time {
+    font-size: 14px;
+    color: #5c6367;
+    font-weight: 300;
+    margin-bottom: 5px; }
 
 /* training and around the state */
 #front-sidebar {
@@ -729,8 +783,11 @@ time {
           font-weight: 100; }
         #front-sidebar #training-front ul li a {
           font-family: "pragmatica-web-condensed", sans-serif; }
-          #front-sidebar #training-front ul li a:hover {
-            text-decoration: none; }
+        #front-sidebar #training-front ul li time {
+          font-size: 18px;
+          color: #5c6367;
+          font-weight: 300;
+          margin-bottom: 5px; }
   #front-sidebar #around-state-front {
     background: url(../images/around-the-state/light_auburn_bg.png) right top no-repeat;
     margin-bottom: 20px; }
